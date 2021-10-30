@@ -1,0 +1,296 @@
+html {
+	position: relative;
+}
+
+/* root */
+
+canvas {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+/* navbar */
+
+.navbar {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.navbar-brand {
+	font-family: "Viga", sans-serif;
+}
+
+.navbar-nav {
+	font-family: "Viga", sans-serif;
+}
+
+/* content */
+
+main {
+	margin-top: 50px;
+	overflow: visible;
+	padding-bottom: 90px;
+}
+
+.detected-face {
+	position: relative;
+	width: 400px !important;
+}
+
+.frame-face {
+	position: absolute;
+	top: 75px;
+	left: 70px;
+}
+
+.vl {
+	border-left: 6px solid #ebebeb;
+	height: 350px;
+}
+
+.title-page {
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #6772a0;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.text-title {
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	color: black;
+	font-size: 36px;
+}
+
+.text-desc {
+	font-family: "Inter", sans-serif;
+	font-weight: normal;
+	color: #999999;
+	font-size: 24px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.btn-blue-navy {
+	font-family: "Inter", sans-serif !important;
+	text-transform: uppercase !important;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #233075;
+	border-color: #3546ab;
+}
+
+.btn-blue-navy:hover {
+	color: white !important;
+	background-color: #2d3e8f;
+}
+
+.btn-orange {
+	font-family: "Inter", sans-serif !important;
+	text-transform: uppercase !important;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #fa8643;
+	border-color: #fa8643;
+}
+
+.btn-orange:hover {
+	color: white !important;
+	background-color: #ff9e53;
+}
+
+.btn-red-candy {
+	font-family: "Inter", sans-serif !important;
+	text-transform: uppercase !important;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #f44336;
+	border-color: #f44336;
+}
+
+.btn-red-candy:hover {
+	color: white !important;
+	background-color: #b83228;
+}
+
+.btn-blue-border {
+	font-family: "Inter", sans-serif !important;
+	text-transform: uppercase !important;
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #3546ab;
+	border-color: #3546ab;
+}
+
+.btn-blue-border:hover {
+	color: #683c1f !important;
+}
+
+.tabler-face {
+	align-items: center;
+}
+
+.timer-text {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 800;
+	font-size: 64px;
+	letter-spacing: 0.5px;
+}
+
+.square-info {
+	width: 100%;
+	height: 400px;
+}
+
+.header-square {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 500;
+	font-size: 14px;
+	width: 100%;
+	height: 35px;
+	background-color: #797979;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.header-square-success {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 500;
+	font-size: 14px;
+	width: 100%;
+	height: 35px;
+	background-color: #27ae60;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.header-square-warning {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 500;
+	font-size: 14px;
+	width: 100%;
+	height: 35px;
+	background-color: #f1e101;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.header-square-danger {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 500;
+	font-size: 14px;
+	width: 100%;
+	height: 35px;
+	background-color: #eb5757;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.content-square {
+	width: 100%;
+	height: 365px;
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.content-square-full {
+	width: 100%;
+	height: 400px;
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.employee-info-title {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.employee-info-text {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 400;
+	font-size: 16px;
+	color: #999999;
+	line-height: 40px;
+}
+
+.fail-info-text {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 400;
+	font-size: 24px;
+	color: #999999;
+}
+
+.employee-new-title {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 400;
+	font-size: 20px;
+	color: #1a2330;
+}
+
+.form-address-title {
+	font-family: "Inter", sans-serif !important;
+	font-weight: 600;
+	font-size: 18px;
+	color: #3546ab;
+}
+
+.face-scan-sensor {
+	display: flex;
+}
+
+.l-height-100 {
+	line-height: 100px;
+}
+
+.non-uppercase {
+	text-transform: capitalize !important;
+}
+
+/* form signin */
+.form-signin {
+	width: 400px;
+	margin: 30px auto;
+}
+
+/*footer */
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-family: "Poppins", sans-serif !important;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background-color: #eaeaea;
+	line-height: 50px;
+	color: black;
+	font-size: 0.8em;
+}
+
+.my-footer {
+	font-family: "Poppins", sans-serif !important;
+	font-size: 14px !important;
+	color: #332f2f !important;
+}
